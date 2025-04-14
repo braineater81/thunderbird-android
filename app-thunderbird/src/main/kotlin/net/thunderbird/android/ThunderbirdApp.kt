@@ -1,12 +1,12 @@
-package net.thunderbird.android
+package net.TODOOZKY.android
 
-import app.k9mail.feature.telemetry.api.TelemetryManager
-import com.fsck.k9.CommonApp
-import com.fsck.k9.K9
+import app.TODOOZKY.feature.telemetry.api.TelemetryManager
+import com.fsck.TZ.CommonApp
+import com.fsck.TZ.TZ
 import org.koin.android.ext.android.inject
 import org.koin.core.module.Module
 
-class ThunderbirdApp : CommonApp() {
+class TODOOZKYApp : CommonApp() {
     private val telemetryManager: TelemetryManager by inject()
 
     override fun provideAppModule(): Module = appModule
